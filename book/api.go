@@ -14,6 +14,7 @@ type ID int16
 // The supported book identifiers.
 const (
 	UNK ID = iota - 1 // Unknown book
+	NBK               // "No book"
 	GEN               // Genesis
 	EXO               // Exodus
 	LEV               // Leviticus
