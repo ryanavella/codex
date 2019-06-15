@@ -124,11 +124,9 @@ const (
 	maxID
 )
 
-// Parse attempts to parse a string for a book identifier and returns an ID.
-//
-// TODO: implement
+// Parse attempts to parse a book title for an identifier and returns a unique ID representation.
 func Parse(s string) (ID, error) {
-	return UNK, ErrUnknownBook
+	return parse(s)
 }
 
 // MetaData is a representation of a book's metadata.
@@ -138,15 +136,25 @@ type MetaData struct {
 
 // Fetch returns the MetaData object for a given book ID.
 func Fetch(id ID) (m MetaData, err error) {
-	if id <= minID || id >= maxID {
+	if !validID(id) {
 		return m, ErrBadID
 	}
 	return metaTab[id], nil
 }
 
+// FetchFromTitle is a combination of Parse and Fetch, returning a MetaData object from a book title.
+func FetchFromTitle(s string) (m MetaData, err error) {
+	id, err := Parse(s)
+	if err != nil {
+		return m, err
+	}
+	// validID(id) == true
+	return metaTab[id], nil
+}
+
 // MetaUSFM is a representation of USFM's standard book identifiers along with some handy metadata.
 //
-// See: https://www.ubsicap.github.io/usfm/identification/books.html?highlight=abbreviation
+// See: https://ubsicap.github.io/usfm/identification/books.html?highlight=abbreviation
 type MetaUSFM struct {
 	Number     string
 	Identifier string
