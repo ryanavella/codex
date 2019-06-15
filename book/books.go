@@ -1,7 +1,7 @@
 package book
 
 var metaTab = map[ID]MetaData{
-	GEN: MetaData{
+	GEN: {
 		InfoUSFM: MetaUSFM{
 			Number:     "01",
 			Identifier: "GEN",
@@ -11,7 +11,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	EXO: MetaData{
+	EXO: {
 		InfoUSFM: MetaUSFM{
 			Number:     "02",
 			Identifier: "EXO",
@@ -21,7 +21,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	LEV: MetaData{
+	LEV: {
 		InfoUSFM: MetaUSFM{
 			Number:     "03",
 			Identifier: "LEV",
@@ -31,7 +31,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	NUM: MetaData{
+	NUM: {
 		InfoUSFM: MetaUSFM{
 			Number:     "04",
 			Identifier: "NUM",
@@ -41,7 +41,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	DEU: MetaData{
+	DEU: {
 		InfoUSFM: MetaUSFM{
 			Number:     "05",
 			Identifier: "DEU",
@@ -51,7 +51,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	JOS: MetaData{
+	JOS: {
 		InfoUSFM: MetaUSFM{
 			Number:     "06",
 			Identifier: "JOS",
@@ -59,7 +59,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	JDG: MetaData{
+	JDG: {
 		InfoUSFM: MetaUSFM{
 			Number:     "07",
 			Identifier: "JDG",
@@ -67,7 +67,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	RUT: MetaData{
+	RUT: {
 		InfoUSFM: MetaUSFM{
 			Number:     "08",
 			Identifier: "RUT",
@@ -75,7 +75,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	SA1: MetaData{
+	SA1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "09",
 			Identifier: "1SA",
@@ -86,7 +86,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	SA2: MetaData{
+	SA2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "10",
 			Identifier: "2SA",
@@ -97,7 +97,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	KI1: MetaData{
+	KI1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "11",
 			Identifier: "1KI",
@@ -108,7 +108,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	KI2: MetaData{
+	KI2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "12",
 			Identifier: "2KI",
@@ -119,7 +119,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	CH1: MetaData{
+	CH1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "13",
 			Identifier: "1CH",
@@ -129,7 +129,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	CH2: MetaData{
+	CH2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "14",
 			Identifier: "2CH",
@@ -139,7 +139,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	EZR: MetaData{
+	EZR: {
 		InfoUSFM: MetaUSFM{
 			Number:     "15",
 			Identifier: "EZR",
@@ -150,7 +150,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	NEH: MetaData{
+	NEH: {
 		InfoUSFM: MetaUSFM{
 			Number:     "16",
 			Identifier: "NEH",
@@ -160,7 +160,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	EST: MetaData{
+	EST: {
 		InfoUSFM: MetaUSFM{
 			Number:     "17",
 			Identifier: "EST",
@@ -168,7 +168,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	JOB: MetaData{
+	JOB: {
 		InfoUSFM: MetaUSFM{
 			Number:     "18",
 			Identifier: "JOB",
@@ -176,7 +176,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	PSA: MetaData{
+	PSA: {
 		InfoUSFM: MetaUSFM{
 			Number:     "19",
 			Identifier: "PSA",
@@ -184,7 +184,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	PRO: MetaData{
+	PRO: {
 		InfoUSFM: MetaUSFM{
 			Number:     "20",
 			Identifier: "PRO",
@@ -192,7 +192,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	ECC: MetaData{
+	ECC: {
 		InfoUSFM: MetaUSFM{
 			Number:     "21",
 			Identifier: "ECC",
@@ -202,7 +202,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	SNG: MetaData{
+	SNG: {
 		InfoUSFM: MetaUSFM{
 			Number:     "22",
 			Identifier: "SNG",
@@ -213,7 +213,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	ISA: MetaData{
+	ISA: {
 		InfoUSFM: MetaUSFM{
 			Number:     "23",
 			Identifier: "ISA",
@@ -221,7 +221,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	JER: MetaData{
+	JER: {
 		InfoUSFM: MetaUSFM{
 			Number:     "24",
 			Identifier: "JER",
@@ -231,7 +231,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	LAM: MetaData{
+	LAM: {
 		InfoUSFM: MetaUSFM{
 			Number:     "25",
 			Identifier: "LAM",
@@ -241,7 +241,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	EZK: MetaData{
+	EZK: {
 		InfoUSFM: MetaUSFM{
 			Number:     "26",
 			Identifier: "EZK",
@@ -249,7 +249,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	DAN: MetaData{
+	DAN: {
 		InfoUSFM: MetaUSFM{
 			Number:     "27",
 			Identifier: "DAN",
@@ -257,7 +257,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	HOS: MetaData{
+	HOS: {
 		InfoUSFM: MetaUSFM{
 			Number:     "28",
 			Identifier: "HOS",
@@ -265,7 +265,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	JOL: MetaData{
+	JOL: {
 		InfoUSFM: MetaUSFM{
 			Number:     "29",
 			Identifier: "JOL",
@@ -273,7 +273,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	AMO: MetaData{
+	AMO: {
 		InfoUSFM: MetaUSFM{
 			Number:     "30",
 			Identifier: "AMO",
@@ -281,7 +281,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	OBA: MetaData{
+	OBA: {
 		InfoUSFM: MetaUSFM{
 			Number:     "31",
 			Identifier: "OBA",
@@ -289,7 +289,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	JON: MetaData{
+	JON: {
 		InfoUSFM: MetaUSFM{
 			Number:     "32",
 			Identifier: "JON",
@@ -297,7 +297,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	MIC: MetaData{
+	MIC: {
 		InfoUSFM: MetaUSFM{
 			Number:     "33",
 			Identifier: "MIC",
@@ -305,7 +305,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	NAM: MetaData{
+	NAM: {
 		InfoUSFM: MetaUSFM{
 			Number:     "34",
 			Identifier: "NAM",
@@ -313,7 +313,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	HAB: MetaData{
+	HAB: {
 		InfoUSFM: MetaUSFM{
 			Number:     "35",
 			Identifier: "HAB",
@@ -321,7 +321,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	ZEP: MetaData{
+	ZEP: {
 		InfoUSFM: MetaUSFM{
 			Number:     "36",
 			Identifier: "ZEP",
@@ -329,7 +329,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	HAG: MetaData{
+	HAG: {
 		InfoUSFM: MetaUSFM{
 			Number:     "37",
 			Identifier: "HAG",
@@ -337,7 +337,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	ZEC: MetaData{
+	ZEC: {
 		InfoUSFM: MetaUSFM{
 			Number:     "38",
 			Identifier: "ZEC",
@@ -345,7 +345,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	MAL: MetaData{
+	MAL: {
 		InfoUSFM: MetaUSFM{
 			Number:     "39",
 			Identifier: "MAL",
@@ -353,7 +353,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	MAT: MetaData{
+	MAT: {
 		InfoUSFM: MetaUSFM{
 			Number:     "41",
 			Identifier: "MAT",
@@ -363,7 +363,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	MRK: MetaData{
+	MRK: {
 		InfoUSFM: MetaUSFM{
 			Number:     "42",
 			Identifier: "MRK",
@@ -373,7 +373,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	LUK: MetaData{
+	LUK: {
 		InfoUSFM: MetaUSFM{
 			Number:     "43",
 			Identifier: "LUK",
@@ -383,7 +383,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	JHN: MetaData{
+	JHN: {
 		InfoUSFM: MetaUSFM{
 			Number:     "44",
 			Identifier: "JHN",
@@ -393,7 +393,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	ACT: MetaData{
+	ACT: {
 		InfoUSFM: MetaUSFM{
 			Number:     "45",
 			Identifier: "ACT",
@@ -403,7 +403,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	ROM: MetaData{
+	ROM: {
 		InfoUSFM: MetaUSFM{
 			Number:     "46",
 			Identifier: "ROM",
@@ -413,7 +413,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	CO1: MetaData{
+	CO1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "47",
 			Identifier: "1CO",
@@ -423,7 +423,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	CO2: MetaData{
+	CO2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "48",
 			Identifier: "2CO",
@@ -433,7 +433,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	GAL: MetaData{
+	GAL: {
 		InfoUSFM: MetaUSFM{
 			Number:     "49",
 			Identifier: "GAL",
@@ -443,7 +443,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	EPH: MetaData{
+	EPH: {
 		InfoUSFM: MetaUSFM{
 			Number:     "50",
 			Identifier: "EPH",
@@ -453,7 +453,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	PHP: MetaData{
+	PHP: {
 		InfoUSFM: MetaUSFM{
 			Number:     "51",
 			Identifier: "PHP",
@@ -463,7 +463,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	COL: MetaData{
+	COL: {
 		InfoUSFM: MetaUSFM{
 			Number:     "52",
 			Identifier: "COL",
@@ -473,7 +473,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	TH1: MetaData{
+	TH1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "53",
 			Identifier: "1TH",
@@ -483,7 +483,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	TH2: MetaData{
+	TH2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "54",
 			Identifier: "2TH",
@@ -493,7 +493,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	TI1: MetaData{
+	TI1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "55",
 			Identifier: "1TI",
@@ -503,7 +503,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	TI2: MetaData{
+	TI2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "56",
 			Identifier: "2TI",
@@ -513,7 +513,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	TIT: MetaData{
+	TIT: {
 		InfoUSFM: MetaUSFM{
 			Number:     "57",
 			Identifier: "TIT",
@@ -523,7 +523,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	PHM: MetaData{
+	PHM: {
 		InfoUSFM: MetaUSFM{
 			Number:     "58",
 			Identifier: "PHM",
@@ -533,7 +533,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	HEB: MetaData{
+	HEB: {
 		InfoUSFM: MetaUSFM{
 			Number:     "59",
 			Identifier: "HEB",
@@ -543,7 +543,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	JAS: MetaData{
+	JAS: {
 		InfoUSFM: MetaUSFM{
 			Number:     "60",
 			Identifier: "JAS",
@@ -553,7 +553,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	PE1: MetaData{
+	PE1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "61",
 			Identifier: "1PE",
@@ -563,7 +563,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	PE2: MetaData{
+	PE2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "62",
 			Identifier: "2PE",
@@ -573,7 +573,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	JN1: MetaData{
+	JN1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "63",
 			Identifier: "1JN",
@@ -583,7 +583,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	JN2: MetaData{
+	JN2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "64",
 			Identifier: "2JN",
@@ -593,7 +593,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	JN3: MetaData{
+	JN3: {
 		InfoUSFM: MetaUSFM{
 			Number:     "65",
 			Identifier: "3JN",
@@ -603,7 +603,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	JUD: MetaData{
+	JUD: {
 		InfoUSFM: MetaUSFM{
 			Number:     "66",
 			Identifier: "JUD",
@@ -613,7 +613,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	REV: MetaData{
+	REV: {
 		InfoUSFM: MetaUSFM{
 			Number:     "67",
 			Identifier: "REV",
@@ -624,7 +624,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	TOB: MetaData{
+	TOB: {
 		InfoUSFM: MetaUSFM{
 			Number:     "68",
 			Identifier: "TOB",
@@ -632,7 +632,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	JDT: MetaData{
+	JDT: {
 		InfoUSFM: MetaUSFM{
 			Number:     "69",
 			Identifier: "JDT",
@@ -640,7 +640,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	ESG: MetaData{
+	ESG: {
 		InfoUSFM: MetaUSFM{
 			Number:     "70",
 			Identifier: "ESG",
@@ -648,7 +648,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	WIS: MetaData{
+	WIS: {
 		InfoUSFM: MetaUSFM{
 			Number:     "71",
 			Identifier: "WIS",
@@ -656,7 +656,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	SIR: MetaData{
+	SIR: {
 		InfoUSFM: MetaUSFM{
 			Number:     "72",
 			Identifier: "SIR",
@@ -667,7 +667,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	BAR: MetaData{
+	BAR: {
 		InfoUSFM: MetaUSFM{
 			Number:     "73",
 			Identifier: "BAR",
@@ -677,7 +677,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	LJE: MetaData{
+	LJE: {
 		InfoUSFM: MetaUSFM{
 			Number:     "74",
 			Identifier: "LJE",
@@ -687,7 +687,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	S3Y: MetaData{
+	S3Y: {
 		InfoUSFM: MetaUSFM{
 			Number:     "75",
 			Identifier: "S3Y",
@@ -695,7 +695,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	SUS: MetaData{
+	SUS: {
 		InfoUSFM: MetaUSFM{
 			Number:     "76",
 			Identifier: "SUS",
@@ -703,7 +703,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	BEL: MetaData{
+	BEL: {
 		InfoUSFM: MetaUSFM{
 			Number:     "77",
 			Identifier: "BEL",
@@ -713,7 +713,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	MA1: MetaData{
+	MA1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "78",
 			Identifier: "1MA",
@@ -723,7 +723,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	MA2: MetaData{
+	MA2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "79",
 			Identifier: "2MA",
@@ -733,7 +733,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	MA3: MetaData{
+	MA3: {
 		InfoUSFM: MetaUSFM{
 			Number:     "80",
 			Identifier: "3MA",
@@ -743,7 +743,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	MA4: MetaData{
+	MA4: {
 		InfoUSFM: MetaUSFM{
 			Number:     "81",
 			Identifier: "4MA",
@@ -751,7 +751,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	ES1: MetaData{
+	ES1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "82",
 			Identifier: "1ES",
@@ -762,7 +762,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	ES2: MetaData{
+	ES2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "83",
 			Identifier: "2ES",
@@ -773,7 +773,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	MAN: MetaData{
+	MAN: {
 		InfoUSFM: MetaUSFM{
 			Number:     "84",
 			Identifier: "MAN",
@@ -781,7 +781,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	PS2: MetaData{
+	PS2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "85",
 			Identifier: "PS2",
@@ -789,7 +789,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	ODA: MetaData{
+	ODA: {
 		InfoUSFM: MetaUSFM{
 			Number:     "86",
 			Identifier: "ODA",
@@ -797,7 +797,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	PSS: MetaData{
+	PSS: {
 		InfoUSFM: MetaUSFM{
 			Number:     "87",
 			Identifier: "PSS",
@@ -805,7 +805,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	EZA: MetaData{
+	EZA: {
 		InfoUSFM: MetaUSFM{
 			Number:     "A4",
 			Identifier: "EZA",
@@ -816,7 +816,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	EZ5: MetaData{
+	EZ5: {
 		InfoUSFM: MetaUSFM{
 			Number:     "A5",
 			Identifier: "5EZ",
@@ -824,7 +824,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	EZ6: MetaData{
+	EZ6: {
 		InfoUSFM: MetaUSFM{
 			Number:     "A6",
 			Identifier: "6EZ",
@@ -832,7 +832,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	DAG: MetaData{
+	DAG: {
 		InfoUSFM: MetaUSFM{
 			Number:     "B2",
 			Identifier: "DAG",
@@ -842,7 +842,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	PS3: MetaData{
+	PS3: {
 		InfoUSFM: MetaUSFM{
 			Number:     "B3",
 			Identifier: "PS3",
@@ -850,7 +850,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	BA2: MetaData{
+	BA2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "B4",
 			Identifier: "2BA",
@@ -860,7 +860,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	LBA: MetaData{
+	LBA: {
 		InfoUSFM: MetaUSFM{
 			Number:     "B5",
 			Identifier: "LBA",
@@ -868,7 +868,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	JUB: MetaData{
+	JUB: {
 		InfoUSFM: MetaUSFM{
 			Number:     "B6",
 			Identifier: "JUB",
@@ -876,7 +876,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	ENO: MetaData{
+	ENO: {
 		InfoUSFM: MetaUSFM{
 			Number:     "B7",
 			Identifier: "ENO",
@@ -886,7 +886,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	MQ1: MetaData{
+	MQ1: {
 		InfoUSFM: MetaUSFM{
 			Number:     "B8",
 			Identifier: "1MQ",
@@ -896,7 +896,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	MQ2: MetaData{
+	MQ2: {
 		InfoUSFM: MetaUSFM{
 			Number:     "B9",
 			Identifier: "2MQ",
@@ -906,7 +906,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	MQ3: MetaData{
+	MQ3: {
 		InfoUSFM: MetaUSFM{
 			Number:     "C0",
 			Identifier: "3MQ",
@@ -916,7 +916,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	REP: MetaData{
+	REP: {
 		InfoUSFM: MetaUSFM{
 			Number:     "C1",
 			Identifier: "REP",
@@ -924,7 +924,7 @@ var metaTab = map[ID]MetaData{
 			NamesAlt:   nil,
 		},
 	},
-	BA4: MetaData{
+	BA4: {
 		InfoUSFM: MetaUSFM{
 			Number:     "C2",
 			Identifier: "4BA",
@@ -935,7 +935,7 @@ var metaTab = map[ID]MetaData{
 			},
 		},
 	},
-	LAO: MetaData{
+	LAO: {
 		InfoUSFM: MetaUSFM{
 			Number:     "C3",
 			Identifier: "LAO",

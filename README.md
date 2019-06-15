@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ryanavella/wide/blob/develop/LICENSE-MIT) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://github.com/ryanavella/wide/blob/develop/LICENSE-UNLICENSE)
 
-# ✡☦ Codex
+# ✡ Codex ☦
 
 A work in progress.
 
