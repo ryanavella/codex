@@ -1,0 +1,22 @@
+# ignore extensionless files
+*
+!*/
+!/**/
+!*.*
+
+# ignore dot-files
+.*
+
+# don't ignore these
+!/LICENSE-MIT
+!/LICENSE-UNLICENSE
+!/.editorconfig
+!/.gitattributes
+!/.gitignore
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
