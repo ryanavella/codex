@@ -67,8 +67,8 @@ var titleTab = map[string]ID{
 	"jeremiah": JER,
 	// Lamentations
 	"lamentations":                 LAM,
-	"lamentations of jeremiah":     JER,
-	"the lamentations of jeremiah": JER,
+	"lamentations of jeremiah":     LAM,
+	"the lamentations of jeremiah": LAM,
 	// Ezekiel
 	"ezekiel": EZK,
 	// Daniel (Hebrew)
