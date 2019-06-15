@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ryanavella/wide/blob/develop/LICENSE-MIT) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://github.com/ryanavella/wide/blob/develop/LICENSE-UNLICENSE)
+[![](https://godoc.org/github.com/ryanavella/codex?status.svg)](https://godoc.org/github.com/ryanavella/codex) [![Go Report Card](https://goreportcard.com/badge/github.com/ryanavella/codex)](https://goreportcard.com/report/github.com/ryanavella/codex) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ryanavella/wide/blob/develop/LICENSE-MIT) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://github.com/ryanavella/wide/blob/develop/LICENSE-UNLICENSE)
 
 # ✡ Codex ☦
 

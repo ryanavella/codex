@@ -117,6 +117,13 @@ const (
 	LAO               // Letter to the Laodiceans
 )
 
+// Parse attempts to parse a string for a book identifier and returns an ID.
+//
+// TODO: implement
+func Parse(s string) (ID, error) {
+	return UNK, ErrUnknownBook
+}
+
 // MetaData is a representation of a book's metadata.
 type MetaData struct {
 	InfoUSFM MetaUSFM
@@ -125,13 +132,6 @@ type MetaData struct {
 // Fetch returns the MetaData object for a given book ID.
 func Fetch(id ID) MetaData {
 	return metaTab[id]
-}
-
-// Parse attempts to parse a string for a book identifier and returns an ID.
-//
-// TODO: implement
-func Parse(s string) (ID, error) {
-	return UNK, ErrUnknownBook
 }
 
 // MetaUSFM is a representation of USFM's standard book identifiers along with some handy metadata.
